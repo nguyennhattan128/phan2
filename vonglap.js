@@ -4,14 +4,10 @@
 //     }
 // }
 // Get();
-
-//for of
 // for(let i of ["ha noi",20.32,3000]){
 //     console.log(i +" ")
 // }
-
-//for in
-//  let obj = {name: 'Peter', age: 25, salary: 3000};
-// for(let i in obj){
-//     console.log(obj[i])
-// }
+var obj = { name: 'Peter', age: 25, salary: 3000 };
+for (var i in obj) {
+    console.log(obj[i]);
+}
