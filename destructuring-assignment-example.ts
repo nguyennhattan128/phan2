@@ -50,3 +50,9 @@
 
 //lambda expression tạo nhanh mmotj hàm chức năng (bỏ ngoặc nhọn return)
 //kết quả [1,4,9,16,25,36,49]
+
+//Sử dụng được spread syntax trong
+// push vao: a.push(...b);
+// , sao chep mang: a = [...b];
+// , sao chep doi tuong: var obj2 = {...obj1};
+// , noi mang: var c = [...a,...b];
