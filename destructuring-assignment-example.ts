@@ -39,11 +39,14 @@
 // const {section1 : {alpha: alpha1, beta: beta1}} = marks;
 // console.log(alpha1, beta1); // 15, 16
 
-// Khai báo Default Parameters trong ES6
-class Geeks{
-    constructor(a,b = 3) {
-        console.log(a*b);
-    }
-}
-let obj = new Geeks(5);
-let obj1 = new Geeks(5, 4);
+// // Khai báo Default Parameters trong ES6
+// class Geeks{
+//     constructor(a,b = 3) {
+//         console.log(a*b);
+//     }
+// }
+// let obj = new Geeks(5);
+// let obj1 = new Geeks(5, 4);
+
+//lambda expression tạo nhanh mmotj hàm chức năng (bỏ ngoặc nhọn return)
+//kết quả [1,4,9,16,25,36,49]
